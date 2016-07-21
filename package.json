@@ -1,0 +1,21 @@
+{
+  "name": "csv-speedtest",
+  "version": "2016.07.11",
+  "description": "Benchmark speed of various CSV parsers",
+  "scripts": {
+    "benchmark": "make benchmark",
+    "test": "make benchmark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phihag/csv-speedtest.git"
+  },
+  "author": "Philipp Hagemeister",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/phihag/csv-speedtest/issues"
+  },
+  "dependencies": {
+    "csv-parse": "*"
+  }
+}
