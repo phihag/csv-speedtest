@@ -19,7 +19,10 @@
     "babyparse": "*",
     "csv-parse": "*",
     "csv-parser": "*",
+    "csv-string": "*",
     "csvtojson": "*",
+    "comma-separated-values": "*",
+    "fast-csv": "*",
     "papaparse": "*"
   }
 }
