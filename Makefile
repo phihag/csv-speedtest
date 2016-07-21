@@ -8,6 +8,7 @@ benchmark: data deps
 	${TIME} ./test_parse_read.js
 	${TIME} ./test_parse_stream.js
 	${TIME} ./test_parser_stream.js
+	${TIME} ./test_fs_read.js
 
 data: data.csv
 
