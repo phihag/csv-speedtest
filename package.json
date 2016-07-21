@@ -16,6 +16,10 @@
     "url": "https://github.com/phihag/csv-speedtest/issues"
   },
   "dependencies": {
-    "csv-parse": "*"
+    "babyparse": "*",
+    "csv-parse": "*",
+    "csv-parser": "*",
+    "csvtojson": "*",
+    "papaparse": "*"
   }
 }

@@ -1,7 +1,13 @@
+TIME := @time -f '%C: %e'
+
 benchmark: data deps
-	time ./test.py
-	time ./test_parse_read.js
-	time ./test_parse_stream.js
+	${TIME} ./test.py
+	${TIME} ./test_baby_read.js
+	${TIME} ./test_csvtojson_file.js
+	${TIME} ./test_papa_read.js
+	${TIME} ./test_parse_read.js
+	${TIME} ./test_parse_stream.js
+	${TIME} ./test_parser_stream.js
 
 data: data.csv
 
